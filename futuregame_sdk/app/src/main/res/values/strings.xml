@@ -1,0 +1,12 @@
+<resources>
+
+    <!--Login-->
+    <string name="login_btn">登入</string>
+    <string name="login_guest">遊客</string>
+    <string name="login_facebook">FB</string>
+    <string name="login_google">G+</string>
+    <string name="login_register">註冊 FutureGame 帳號</string>
+    <string name="login_forget">忘記帳密</string>
+    <string name="login_privacy_hint">我已詳細閱讀並同意 服務條款 和 隱私政策</string>
+
+</resources>

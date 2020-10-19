@@ -1,0 +1,206 @@
+# compiler: R8
+# compiler_version: 2.0.88
+# pg_map_id: ad51f05
+# common_typos_disable
+com.futuregame.sdk.BuildConfig -> com.futuregame.sdk.BuildConfig:
+    1:1:void <init>():6:6 -> <init>
+com.futuregame.sdk.FloatingView -> com.futuregame.sdk.FloatingView:
+    kotlin.Lazy windowView$delegate -> b
+    kotlin.Lazy mLayoutParams$delegate -> c
+    kotlin.Lazy windowManager$delegate -> a
+    1:52:void <init>(android.app.Activity):10:61 -> <init>
+    1:1:android.view.WindowManager$LayoutParams getMLayoutParams():0:0 -> access$getMLayoutParams$p
+    1:1:android.view.WindowManager$LayoutParams access$getMLayoutParams$p(com.futuregame.sdk.FloatingView):10 -> access$getMLayoutParams$p
+    1:1:android.view.WindowManager getWindowManager():0:0 -> access$getWindowManager$p
+    1:1:android.view.WindowManager access$getWindowManager$p(com.futuregame.sdk.FloatingView):10 -> access$getWindowManager$p
+    1:1:android.view.View getWindowView():0:0 -> showFloatingView
+    1:1:void showFloatingView():81 -> showFloatingView
+    2:2:void showFloatingView():81:81 -> showFloatingView
+    3:3:android.view.WindowManager getWindowManager():0:0 -> showFloatingView
+    3:3:void showFloatingView():82 -> showFloatingView
+    4:4:android.view.View getWindowView():0:0 -> showFloatingView
+    4:4:void showFloatingView():82 -> showFloatingView
+    5:5:android.view.WindowManager$LayoutParams getMLayoutParams():0:0 -> showFloatingView
+    5:5:void showFloatingView():82 -> showFloatingView
+    6:6:void showFloatingView():82:82 -> showFloatingView
+com.futuregame.sdk.FloatingView$mLayoutParams$2 -> com.futuregame.sdk.FloatingView$a:
+    com.futuregame.sdk.FloatingView$mLayoutParams$2 INSTANCE -> a
+    1:11:android.view.WindowManager$LayoutParams invoke():62:72 -> invoke
+    1:11:java.lang.Object invoke():10 -> invoke
+com.futuregame.sdk.FloatingView$windowManager$2 -> com.futuregame.sdk.FloatingView$b:
+    android.app.Activity $activity -> a
+    1:1:android.view.WindowManager invoke():12:12 -> invoke
+    1:1:java.lang.Object invoke():10 -> invoke
+com.futuregame.sdk.FloatingView$windowView$2 -> com.futuregame.sdk.FloatingView$c:
+    com.futuregame.sdk.FloatingView this$0 -> a
+    android.app.Activity $activity -> b
+    1:43:android.view.View invoke():15:57 -> invoke
+    1:43:java.lang.Object invoke():10 -> invoke
+com.futuregame.sdk.FloatingView$windowView$2$$special$$inlined$apply$lambda$1 -> com.futuregame.sdk.FloatingView$windowView$2$$special$$inlined$apply$lambda$1:
+    com.futuregame.sdk.FloatingView$windowView$2 this$0 -> d
+    android.view.View $this_apply -> a
+    kotlin.jvm.internal.Ref$FloatRef $lastTouchY -> c
+    kotlin.jvm.internal.Ref$FloatRef $lastTouchX -> b
+    1:1:void <init>(android.view.View,kotlin.jvm.internal.Ref$FloatRef,kotlin.jvm.internal.Ref$FloatRef,com.futuregame.sdk.FloatingView$windowView$2):20:20 -> <init>
+    1:4:boolean onDown(android.view.MotionEvent):23:26 -> onDown
+    1:13:boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float):36:48 -> onScroll
+    1:2:boolean onSingleTapUp(android.view.MotionEvent):52:53 -> onSingleTapUp
+com.futuregame.sdk.FloatingView$windowView$2$1$1 -> a:
+    android.view.GestureDetector $mGestureDetector -> a
+    1:1:boolean onTouch(android.view.View,android.view.MotionEvent):57:57 -> onTouch
+com.futuregame.sdk.FutureGameActivity -> com.futuregame.sdk.FutureGameActivity:
+    java.util.HashMap _$_findViewCache -> b
+    kotlin.Lazy menuShowSpring$delegate -> a
+    1:3:void <init>():11:13 -> <init>
+    1:2:void onCreate(android.os.Bundle):34:35 -> onCreate
+    3:15:void initStyle():48:60 -> onCreate
+    3:15:void onCreate(android.os.Bundle):37 -> onCreate
+    16:16:com.facebook.rebound.Spring getMenuShowSpring():0:0 -> onCreate
+    16:16:void onCreate(android.os.Bundle):39 -> onCreate
+    17:17:void onCreate(android.os.Bundle):39:39 -> onCreate
+    1:1:com.facebook.rebound.Spring getMenuShowSpring():0:0 -> onDestroy
+    1:1:void onDestroy():43 -> onDestroy
+    2:3:void onDestroy():43:44 -> onDestroy
+com.futuregame.sdk.FutureGameActivity$initStyle$1 -> b:
+    android.view.View $decorView -> a
+    int $flags -> b
+    1:1:void onSystemUiVisibilityChange(int):62:62 -> onSystemUiVisibilityChange
+com.futuregame.sdk.FutureGameActivity$menuShowSpring$2 -> com.futuregame.sdk.FutureGameActivity$a:
+    com.futuregame.sdk.FutureGameActivity this$0 -> a
+    1:3:com.facebook.rebound.Spring invoke():14:16 -> invoke
+    1:3:java.lang.Object invoke():11 -> invoke
+com.futuregame.sdk.FutureGameActivity$menuShowSpring$2$$special$$inlined$apply$lambda$1 -> com.futuregame.sdk.FutureGameActivity$menuShowSpring$2$$special$$inlined$apply$lambda$1:
+    com.futuregame.sdk.FutureGameActivity$menuShowSpring$2 this$0 -> a
+    1:1:void <init>(com.futuregame.sdk.FutureGameActivity$menuShowSpring$2):16:16 -> <init>
+    1:9:void onSpringUpdate(com.facebook.rebound.Spring):18:26 -> onSpringUpdate
+    10:10:void onSpringUpdate(com.facebook.rebound.Spring):24:24 -> onSpringUpdate
+    11:18:void onSpringUpdate(com.facebook.rebound.Spring):20:27 -> onSpringUpdate
+com.futuregame.sdk.FutureLoginActivity -> com.futuregame.sdk.FutureLoginActivity:
+    java.util.HashMap _$_findViewCache -> a
+    1:1:void <init>():15:15 -> <init>
+    1:2:void finish():29:30 -> finish
+    1:3:void onActivityResult(int,int,android.content.Intent):82:84 -> onActivityResult
+    1:3:void onCreate(android.os.Bundle):18:20 -> onCreate
+    4:14:void initStyle():34:44 -> onCreate
+    4:14:void onCreate(android.os.Bundle):22 -> onCreate
+    15:15:void initFBLogin():54:54 -> onCreate
+    15:15:void onCreate(android.os.Bundle):24 -> onCreate
+    16:16:void initGoogleLogin():68:68 -> onCreate
+    16:16:void onCreate(android.os.Bundle):25 -> onCreate
+com.futuregame.sdk.FutureLoginActivity$initFBLogin$1 -> com.futuregame.sdk.FutureLoginActivity$initFBLogin$1:
+    com.futuregame.sdk.FutureLoginActivity this$0 -> a
+    1:1:void onClick(android.view.View):55:55 -> onClick
+com.futuregame.sdk.FutureLoginActivity$initFBLogin$1$1 -> com.futuregame.sdk.FutureLoginActivity$initFBLogin$1$1:
+    com.futuregame.sdk.FutureLoginActivity$initFBLogin$1 this$0 -> a
+    1:1:void <init>(com.futuregame.sdk.FutureLoginActivity$initFBLogin$1):55:55 -> <init>
+    1:1:void onError(java.lang.String):61:61 -> onError
+    1:1:void onSuccess(java.lang.String):57:57 -> onSuccess
+com.futuregame.sdk.FutureLoginActivity$initGoogleLogin$1 -> com.futuregame.sdk.FutureLoginActivity$initGoogleLogin$1:
+    com.futuregame.sdk.FutureLoginActivity this$0 -> a
+    1:1:void onClick(android.view.View):69:69 -> onClick
+com.futuregame.sdk.FutureLoginActivity$initGoogleLogin$1$1 -> com.futuregame.sdk.FutureLoginActivity$initGoogleLogin$1$1:
+    com.futuregame.sdk.FutureLoginActivity$initGoogleLogin$1 this$0 -> a
+    1:1:void <init>(com.futuregame.sdk.FutureLoginActivity$initGoogleLogin$1):69:69 -> <init>
+    1:1:void onError(java.lang.String):75:75 -> onError
+    1:1:void onSuccess(java.lang.String):71:71 -> onSuccess
+com.futuregame.sdk.FutureLoginActivity$initStyle$1 -> c:
+    android.view.View $decorView -> a
+    int $flags -> b
+    1:1:void onSystemUiVisibilityChange(int):46:46 -> onSystemUiVisibilityChange
+com.futuregame.sdk.FutureSDK -> com.futuregame.sdk.FutureSDK:
+    1:1:void <init>():9:9 -> <init>
+    1:1:void doLogin(android.app.Activity,com.futuregame.sdk.FutureSDK$LoginListener):28:28 -> doLogin
+    1:1:android.os.Bundle getMetaData():20:20 -> getMetaData
+    1:1:void init(android.app.Activity):16:16 -> init
+    1:1:void logout():32:32 -> logout
+    1:1:void showFloatingView():24:24 -> showFloatingView
+com.futuregame.sdk.Singleton -> com.futuregame.sdk.Singleton:
+    kotlin.Lazy mFloatingView$delegate -> b
+    android.os.Bundle metaData -> c
+    java.lang.ref.WeakReference activity -> a
+    1:4:void <clinit>():16:19 -> <clinit>
+    1:1:void <init>():16:16 -> <init>
+    1:1:java.lang.ref.WeakReference access$getActivity$p(com.futuregame.sdk.Singleton):16:16 -> access$getActivity$p
+    1:1:void access$setActivity$p(com.futuregame.sdk.Singleton,java.lang.ref.WeakReference):16:16 -> access$setActivity$p
+    1:1:void doLogin(android.app.Activity,com.futuregame.sdk.FutureSDK$LoginListener):71:71 -> doLogin
+    1:1:android.os.Bundle getMetaData():60:60 -> getMetaData
+    1:3:void init(android.app.Activity):26:28 -> init
+    4:5:void initMetaData(android.app.Activity):37:38 -> init
+    4:5:void init(android.app.Activity):28 -> init
+    6:10:void initMetaData(android.app.Activity):37:41 -> init
+    6:10:void init(android.app.Activity):28 -> init
+    11:13:void init(android.app.Activity):30:32 -> init
+    14:15:void initHttpTool():45:46 -> init
+    14:15:void init(android.app.Activity):32 -> init
+    16:16:void initHttpTool():0:0 -> init
+    16:16:void init(android.app.Activity):32 -> init
+    17:17:void initMetaData(android.app.Activity):37:37 -> init
+    17:17:void init(android.app.Activity):28 -> init
+    1:2:void logout():76:77 -> logout
+    1:1:void showFloatingView():64:64 -> showFloatingView
+    2:2:com.futuregame.sdk.FloatingView getMFloatingView():0:0 -> showFloatingView
+    2:2:void showFloatingView():64 -> showFloatingView
+    3:3:void showFloatingView():64:64 -> showFloatingView
+    4:4:com.futuregame.sdk.FloatingView getMFloatingView():0:0 -> showFloatingView
+    4:4:void showFloatingView():64 -> showFloatingView
+com.futuregame.sdk.Singleton$initHttpTool$1 -> com.futuregame.sdk.Singleton$initHttpTool$1:
+    1:1:void <init>():46:46 -> <init>
+    1:2:void onFailure(int,java.lang.String,java.lang.String):53:54 -> onFailure
+    1:2:void onSuccess(java.lang.String,java.lang.String):48:49 -> onSuccess
+com.futuregame.sdk.Singleton$mFloatingView$2 -> com.futuregame.sdk.Singleton$a:
+    com.futuregame.sdk.Singleton$mFloatingView$2 INSTANCE -> a
+    1:1:com.futuregame.sdk.FloatingView invoke():19:19 -> invoke
+    1:1:java.lang.Object invoke():16 -> invoke
+com.futuregame.sdk.api.API -> com.futuregame.sdk.api.API:
+    1:1:void <clinit>():8:8 -> <clinit>
+    1:1:void <init>():8:8 -> <init>
+    1:4:void postFBLogin(android.content.Context,java.lang.String):16:19 -> postFBLogin
+    1:4:void postGoogleLogin(android.content.Context,java.lang.String):24:27 -> postGoogleLogin
+com.futuregame.sdk.model.FutureEntity -> com.futuregame.sdk.model.FutureEntity:
+    1:1:void <init>():3:3 -> <init>
+com.futuregame.sdk.tool.FBTool -> com.futuregame.sdk.tool.FBTool:
+    kotlin.Lazy callbackManager$delegate -> a
+    1:3:void <clinit>():9:11 -> <clinit>
+    1:1:void <init>():9:9 -> <init>
+    1:1:void login(android.app.Activity,com.futuregame.sdk.tool.FBTool$LoginListener):19:19 -> login
+    2:2:com.facebook.CallbackManager getCallbackManager():0:0 -> login
+    2:2:void login(android.app.Activity,com.futuregame.sdk.tool.FBTool$LoginListener):20 -> login
+    3:3:void login(android.app.Activity,com.futuregame.sdk.tool.FBTool$LoginListener):21:21 -> login
+    4:31:void login(android.app.Activity,com.futuregame.sdk.tool.FBTool$LoginListener):19:46 -> login
+    1:1:void logout():54:54 -> logout
+    1:1:com.facebook.CallbackManager getCallbackManager():0:0 -> onActivityResult
+    1:1:void onActivityResult(int,int,android.content.Intent):50 -> onActivityResult
+    2:2:void onActivityResult(int,int,android.content.Intent):50:50 -> onActivityResult
+com.futuregame.sdk.tool.FBTool$callbackManager$2 -> com.futuregame.sdk.tool.FBTool$a:
+    com.futuregame.sdk.tool.FBTool$callbackManager$2 INSTANCE -> a
+    1:1:com.facebook.CallbackManager invoke():11:11 -> invoke
+    1:1:java.lang.Object invoke():9 -> invoke
+com.futuregame.sdk.tool.FBTool$login$1 -> com.futuregame.sdk.tool.FBTool$login$1:
+    com.futuregame.sdk.tool.FBTool$LoginListener $loginListener -> a
+    1:1:void <init>(com.futuregame.sdk.tool.FBTool$LoginListener):21:21 -> <init>
+    1:1:void onCancel():33:33 -> onCancel
+    1:6:void onError(com.facebook.FacebookException):37:42 -> onError
+    1:1:void onSuccess(java.lang.Object):21:21 -> onSuccess
+    2:5:void onSuccess(com.facebook.login.LoginResult):25:28 -> onSuccess
+com.futuregame.sdk.tool.GoogleTool -> com.futuregame.sdk.tool.GoogleTool:
+    com.futuregame.sdk.tool.GoogleTool$LoginListener loginListener -> a
+    1:1:void <clinit>():12:12 -> <clinit>
+    1:1:void <init>():12:12 -> <init>
+    1:4:com.google.android.gms.auth.api.signin.GoogleSignInClient getGoogleSignInOptions(android.app.Activity):25:28 -> a
+    5:5:com.google.android.gms.auth.api.signin.GoogleSignInClient getGoogleSignInOptions(android.app.Activity):24:24 -> a
+    1:2:void login(android.app.Activity,com.futuregame.sdk.tool.GoogleTool$LoginListener):32:33 -> login
+    1:1:void logout(android.app.Activity):58:58 -> logout
+    1:15:void onActivityResult(int,int,android.content.Intent):37:51 -> onActivityResult
+com.futuregame.sdk.tool.LogTool -> com.futuregame.sdk.tool.LogTool:
+    1:1:void <clinit>():5:5 -> <clinit>
+    1:1:void <init>():5:5 -> <init>
+    1:1:void log(java.lang.String):7:7 -> log
+com.futuregame.sdk.tool.MetaDataTool -> com.futuregame.sdk.tool.MetaDataTool:
+    1:1:void <clinit>():7:7 -> <clinit>
+    1:1:void <init>():7:7 -> <init>
+    1:3:java.lang.String googleClientId():14:16 -> googleClientId
+    4:4:java.lang.String googleClientId():14:14 -> googleClientId
+    1:2:boolean isLog():9:10 -> isLog
+    3:3:boolean isLog():9:9 -> isLog
+io.michaelrocks.paranoid.Deobfuscator$app$Release -> io.michaelrocks.paranoid.Deobfuscator$app$Release:
+    java.lang.String[] chunks -> a

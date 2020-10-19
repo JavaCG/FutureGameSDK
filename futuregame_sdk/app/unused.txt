@@ -1,0 +1,30 @@
+com.futuregame.sdk.FutureLoginActivity:
+    public final void initStyle()
+    public final void initFBLogin()
+    public final void initGoogleLogin()
+com.futuregame.sdk.FloatingView$mLayoutParams$2:
+    public final android.view.WindowManager$LayoutParams invoke()
+com.futuregame.sdk.FloatingView$windowManager$2:
+    public final android.view.WindowManager invoke()
+com.futuregame.sdk.FloatingView:
+    public final android.view.WindowManager getWindowManager()
+    public final android.view.View getWindowView()
+    public final android.view.WindowManager$LayoutParams getMLayoutParams()
+com.futuregame.sdk.FloatingView$windowView$2:
+    public final android.view.View invoke()
+com.futuregame.sdk.tool.FBTool$callbackManager$2:
+    public final com.facebook.CallbackManager invoke()
+com.futuregame.sdk.FutureGameActivity:
+    public final com.facebook.rebound.Spring getMenuShowSpring()
+    public final void initStyle()
+com.futuregame.sdk.FutureGameActivity$menuShowSpring$2:
+    public final com.facebook.rebound.Spring invoke()
+com.futuregame.sdk.Singleton$mFloatingView$2:
+    public final com.futuregame.sdk.FloatingView invoke()
+com.futuregame.sdk.Singleton:
+    public final com.futuregame.sdk.FloatingView getMFloatingView()
+    public final void initMetaData(android.app.Activity)
+    public final void initHttpTool()
+    public static com.futuregame.sdk.FutureSDK$LoginListener loginListener
+com.futuregame.sdk.tool.FBTool:
+    public final com.facebook.CallbackManager getCallbackManager()

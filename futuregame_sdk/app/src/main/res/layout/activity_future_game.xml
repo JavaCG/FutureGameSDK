@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="#000">
+
+    <View
+        android:id="@+id/Mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8FFF"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/NestedScrollView"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:background="#8FFF"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="40dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="40dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#000"
+                android:gravity="center"
+                android:text="會員中心"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#000"
+                android:gravity="center"
+                android:text="儲值查詢"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#000"
+                android:gravity="center"
+                android:text="客服中心"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#000"
+                android:gravity="center"
+                android:text="序號兌換"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#000"
+                android:gravity="center"
+                android:text="儲值服務"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <View
+        android:id="@+id/FBLogin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#0FF"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/GoogleLogin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:background="#F0F"
+        android:visibility="gone" />
+</RelativeLayout>
